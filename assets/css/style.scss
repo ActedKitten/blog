@@ -19,11 +19,28 @@ body {
 .blog-header {
   width: 100%;
   height: 400px;
-  background: url('{{ site.baseurl }}/assets/images/leader_blog.jpg') center/cover no-repeat;
+  background-color: #B8C7E6;
+  background-image: url('{{ site.baseurl }}/assets/images/leader_blog.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 3em;
+  position: relative;
+}
+
+.blog-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  pointer-events: none;
 }
 
 .blog-header h1 {
@@ -33,6 +50,7 @@ body {
   margin: 0;
   text-align: center;
   z-index: 1;
+  position: relative;
 }
 
 /* Main container */
