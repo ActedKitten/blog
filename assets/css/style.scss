@@ -10,6 +10,30 @@ body {
   color: #333;
 }
 
+/* Header with background image */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}/assets/images/leader.jpg') center/cover no-repeat;
+  color: white;
+  padding: 3em 2em;
+  border-bottom: 3px solid #0066cc;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+header h1 {
+  color: white;
+  border-bottom: none;
+  margin-top: 0;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
 h1, h2, h3, h4 {
   color: #2c3e50;
   margin-top: 1.5em;
@@ -37,4 +61,47 @@ nav {
 nav a {
   margin-right: 1.5em;
   font-weight: 500;
+}
+
+/* Post styling */
+.post-title {
+  color: #0066cc;
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.post-meta {
+  color: #999;
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
+}
+
+/* Code styling */
+code {
+  background-color: #f6f6f6;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: #f6f6f6;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    padding: 2em 1em;
+  }
+  
+  header h1 {
+    font-size: 1.8em;
+  }
+  
+  header p {
+    font-size: 1em;
+  }
 }
