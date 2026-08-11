@@ -1,6 +1,6 @@
 # Sojo's BLOG
 
-个人博客网站，使用 GitHub Pages + Jekyll 搭建。
+个人博客网站，使用 GitHub Pages搭建。
 
 ## 访问地址
 
