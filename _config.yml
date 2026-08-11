@@ -1,31 +1,16 @@
 title: Sojo's BLOG
-author: ActedKitten
-url: https://actedkitten.github.io/blog
+description: A personal blog by Sojo
+author: ActedKitten (Sojo)
+url: https://actedkitten.github.io
 baseurl: /blog
 
 # Theme
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Markdown
+# Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /posts/:title/
-
-# Pagination
-paginate: 10
-paginate_path: /page:num/
-
-# Show downloads
-show_downloads: false
