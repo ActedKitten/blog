@@ -16,7 +16,6 @@ body {
 .blog-header {
   width: 100%;
   height: 400px;
-  background-color: #B8C7E6;
   background-image: url('../images/leader_blog.jpg');
   background-size: cover;
   background-position: center;
