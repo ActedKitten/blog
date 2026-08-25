@@ -1,10 +1,10 @@
 # Sojo's BLOG
 
-个人博客网站，使用 GitHub Pages搭建。
+个人blog，使用 GitHub Pages搭建。
 
 ## 访问地址
 
-🔗 https://actedkitten.github.io/blog
+https://actedkitten.github.io/blog
 
 ## 新增文章
 
