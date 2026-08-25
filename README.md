@@ -32,5 +32,5 @@ tags: [标签1, 标签2]
 
 ## 更多信息
 
-- 主站点：[actedkitten.github.io](https://actedkitten.github.io)
+- blog site：[actedkitten.github.io](https://actedkitten.github.io/blog)
 - GitHub：[@ActedKitten](https://github.com/ActedKitten)
