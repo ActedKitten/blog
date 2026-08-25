@@ -2,11 +2,11 @@
 
 个人blog，使用 GitHub Pages搭建。
 
-## 访问地址
+# 访问地址
 
 https://actedkitten.github.io/blog
 
-## 新增文章
+# 新增文章
 
 在 `_posts/` 文件夹中创建新文件，命名格式：
 
@@ -14,7 +14,7 @@ https://actedkitten.github.io/blog
 YYYY-MM-DD-文章标题.md
 ```
 
-## 文章模板
+# 文章模板
 
 ```markdown
 ---
@@ -30,5 +30,5 @@ tags: [标签1, 标签2]
 你的内容...
 ```
 
-## 更多信息
+# 更多信息
 - GitHub：[@ActedKitten](https://github.com/ActedKitten)
