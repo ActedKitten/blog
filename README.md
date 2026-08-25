@@ -31,6 +31,4 @@ tags: [标签1, 标签2]
 ```
 
 ## 更多信息
-
-- blog site：[actedkitten.github.io](https://actedkitten.github.io/blog)
 - GitHub：[@ActedKitten](https://github.com/ActedKitten)
